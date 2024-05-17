@@ -1,3 +1,82 @@
+/* General Styling */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #1e1e2e;
+  color: #cdd6f4;
+  padding: 0;
+}
+
 h1 {
-  text-align: center;
+  color: #a6e3a1;
+}
+
+h2 {
+  color: #fab387;
+
+}
+
+/* Nav Bar Style */
+nav {
+  padding: 18px;
+  border-bottom: 1px solid #cba6f7;
+}
+
+.nav-ul {
+  display: flex;
+  gap: 40px;
+  align-items: baseline;
+  list-style: none;
+}
+
+li a {
+  text-decoration: none;
+  color: #74c7ec;
+}
+
+.logo a {
+  font-size: 2rem;
+}
+
+.logo {
+  flex-grow: 1;
+}
+
+/* About Section Styling */
+
+.About {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #cba6f7;
+}
+
+.About h2 {
+  text-decoration: underline;
+}
+
+/* Cook Book Section Style */
+
+.Book {
+  border-bottom: 1px solid #cba6f7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Book ul {
+  list-style: none;
+}
+
+.Book ul li a {
+  color: #f5c2e7;
+  font-size: 1.3rem;
+}
+
+.Book ul li {
+  margin: 9px;
 }
